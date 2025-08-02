@@ -1,9 +1,9 @@
 import Header from "./components/Header.jsx";
 import Shop from "./components/Shop.jsx";
-import CartContextProvider from "./shopping-cart-context.jsx";
+import CartContextProvider from "./shopping-cart-context.jsx"
 
 function App() {
-  return (
+  return 
     <CartContextProvider>
       <Header />
       <Shop />
